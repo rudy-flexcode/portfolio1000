@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+body {
+  background-color: #111;
+  color: rgba(240, 240, 240, 0.79);
+  font-family: "Audiowide", serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.h1 {
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(240, 240, 240, 0.79);
+  font-size: 1.7rem;
+  margin-top: 5%;
+  z-index: 3;
+  margin-right: 20%;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 3%;
+  margin-left: 2%;
+  z-index: 2;
+  padding: 2px;
+}
+
+.photo2 {
+  width: 100%;
+  height: 100%;
+  margin-top: -14em;
+  position: relative;
+  z-index: 1;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(240, 240, 240, 0.79);
+  font-size: 2rem;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(240, 240, 240, 0.79);
+  font-size: 1rem;
+  margin: 0% 10% 0% 10%;
+}
+
+.p2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(240, 240, 240, 0.79);
+  font-size: 1rem;
+  margin: 4% 10% 0% 10%;
+}
+
+.framework {
+  margin-top: 10%;
+  background-color: rgba(240, 240, 240, 0.79);
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.p3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+/* Media queries for desktop */
+@media screen and (min-width: 768px) {
+ 
+  .header {
+    width: 100%;
+    height: 40vh;
+    margin-top: -105vh;
+    margin-right: 0;
+  
+  }
+
+  .logo {
+    width: 15%;
+    height: auto;
+    margin-left: 12%;
+    padding-top: 18%;
+    padding-bottom: 10%;
+    margin-top: 185vh; 
+  }
+  
+  .h1 {
+    font-family: "Audiowide", serif;
+    margin-right: 30vh;
+    font-size: 2rem;
+    margin-top: 207vh;
+    z-index: 3;
+  }
+}
+
+
+
+

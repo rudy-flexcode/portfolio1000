@@ -1,0 +1,69 @@
+body {
+  background-color: #111;
+  color: rgba(240, 240, 240, 0.79);
+  font-family: "Audiowide", serif;
+  margin: 0;
+  padding: 0;
+ 
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: tomato;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    padding: 10px;
+    margin: 30px;
+  }
+.but666{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+ul li{
+    padding: 10px;
+    margin: 30px;
+    color: tomato;
+}
+ 
+}

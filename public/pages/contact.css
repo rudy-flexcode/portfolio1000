@@ -1,0 +1,41 @@
+.contact{
+    background-image: url(../photo/photo2.jpg);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact h1{
+    color: #fff7f7;
+    font-size: 4em;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+
+}
+.pcontact{
+    color: #fff7f7;
+    font-size: 1.5em;
+    margin: 10px;
+}
+@media (max-width: 768px) {
+    .contact h1{
+        font-size: 2em;
+    }
+    .link{
+        font-size: 1em;
+    }
+    .pcontact{
+        font-size: 1em;
+    }
+}
